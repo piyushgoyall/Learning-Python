@@ -1,0 +1,14 @@
+# Python program to genrate fibonacci series
+
+limit = 10
+a = 0
+b = 1
+sum = 0
+i = 0
+
+while (i<limit):
+    print(a)
+    sum = a + b
+    a = b
+    b = sum
+    i = i+1
