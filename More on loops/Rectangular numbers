@@ -1,0 +1,35 @@
+# Print the following pattern for the given number of rows.
+# Pattern for N = 4
+
+
+#   4 4 4 4 4 4 4
+#   4 3 3 3 3 3 4
+#   4 3 2 2 2 3 4
+#   4 3 2 1 2 3 4
+#   4 3 2 2 2 3 4
+#   4 3 3 3 3 3 4  
+#   4 4 4 4 4 4 4
+
+
+## Read input as specified in the question.
+## Print output as specified in the question.
+
+
+n = int(input())
+for r in range(1,2*n,1):
+    i = n
+    if r <= n:
+        for c in range(1,2*n,1):
+            print(i,end="")
+            if r > c:
+                i = i-1
+            if r+c >= 2*n:
+                i = i+1
+    if r > n:
+        for c in range(1,2*n,1):
+            print(i,end="")
+            if r+c < 2*n:
+                i = i-1
+            if r <= c:
+                i = i+1
+    print()
