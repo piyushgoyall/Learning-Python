@@ -28,3 +28,24 @@ def removeAllOccurrencesOfChar(string, ch) :
 string = stdin.readline().strip()
 ch = stdin.readline().strip()[0]
 removeAllOccurrencesOfChar(string, ch)
+
+**** OR ****
+
+from sys import stdin
+
+def removeAllOccurrencesOfChar(string, ch) :
+	# Your code goes here
+	n = len(string)
+	ans = ""
+	for i in range(n):
+	    if string[i] != ch:
+	        ans = ans + string[i]
+	        
+	return ans
+
+#main
+string = stdin.readline().strip()
+ch = stdin.readline().strip()[0]
+
+ans = removeAllOccurrencesOfChar(string, ch)
+print(ans)
