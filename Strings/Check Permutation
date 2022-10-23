@@ -39,3 +39,33 @@ if ans :
     print('true')
 else :
     print('false')
+    
+   
+**** OR ****
+
+from sys import stdin
+
+def checkPermutation(string1, string2):
+    if len(string1) != len(string2) : 
+        return False 
+    frquency = [0] * 256 
+    for i in range(len(string1)) : 
+        ch = ord(string1[i]) 
+        frquency[ch] += 1 
+    for i in range(len(string2)) : 
+        ch = ord(string2[i]) 
+        frquency[ch] -= 1 
+    for i in range(256) : 
+        if frquency[i] != 0 : 
+            return False 
+    return True
+
+str1 = stdin.readline().strip();
+str2 = stdin.readline().strip();
+ans = checkPermutation(str1, str2)
+
+if ans :
+    print('true')
+else :
+    print('false')
+
