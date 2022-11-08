@@ -1,4 +1,4 @@
-# 2. Write a program that accepts a list from user. Your program should reverse
+# Write a program that accepts a list from user. Your program should reverse
 # the content of list and display it. Do not use reverse() method.
 
 l = input().split()
