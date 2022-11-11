@@ -31,3 +31,27 @@ Entered list :  ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
 D : 4
 
 Rotated list :  ['5', '6', '7', '8', '9', '0', '1', '2', '3', '4']
+
+
+******** OR ********
+
+listtt = [int(lii) for lii in input().split()]
+d = int(input())
+new = []
+new_2 = []
+print(listtt)
+for i in range(len(listtt)):
+    if i >= d:
+        new.append(listtt[i])
+    else:
+        new_2.append(listtt[i])
+print(new)
+print(new_2)
+print(new+new_2)
+
+**** OUTPUT ****
+
+1 2 3 4 5 6 7 8 9 0
+4
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+[5, 6, 7, 8, 9, 0, 1, 2, 3, 4]
