@@ -26,3 +26,11 @@ print("Total uppercase letters : ",ucount)
 print("Total lowercase letters : ",lcount)
 print("Total digits : ",dcount)
 print("Total whitespces : ",wcount)
+
+**** OUTPUT ****
+
+QWERT     qwert     12345
+Total uppercase letters :  5
+Total lowercase letters :  5
+Total digits :  5
+Total whitespces :  10
