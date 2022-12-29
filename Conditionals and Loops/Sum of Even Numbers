@@ -28,3 +28,14 @@ while sum<=N:
     sum1=sum1+sum
     sum=sum+2
 print(sum1)
+
+**** OR ****
+
+N = int(input())
+i = 0
+summ = 0
+while i<=N:
+	if i%2==0:
+		summ = summ + i
+	i = i+1
+print(summ)
