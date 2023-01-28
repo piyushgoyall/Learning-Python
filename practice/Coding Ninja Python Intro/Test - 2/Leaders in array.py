@@ -17,7 +17,7 @@
 # Sample Output 2 :
 # 17 6
 
-**** SOLUTION ****
+# **** SOLUTION ****
 
 ## Read input as specified in the question.
 ## Print output as specified in the question.

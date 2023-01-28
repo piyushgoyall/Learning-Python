@@ -17,7 +17,7 @@
 # 4 5 6
 # 7 8 9
 
-**** SOLUTION ****
+# **** SOLUTION ****
 
 ## Read input as specified in the question.
 ## Print output as specified in the question.
