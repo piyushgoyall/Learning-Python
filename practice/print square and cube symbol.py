@@ -10,7 +10,7 @@ print("The area of the rectangle is {0:.{1}f}cm\u00b2".format(area, decimals))
 decimals = 3
 print("The volume of the cylinder is {0:.{1}f}cm\u00b3".format(volume, decimals))
 
-**** OUTPUT ****
+# **** OUTPUT ****
 
-The area of the rectangle is 1256.66cm²
-The volume of the cylinder is 1254.725cm³
+# The area of the rectangle is 1256.66cm²
+# The volume of the cylinder is 1254.725cm³

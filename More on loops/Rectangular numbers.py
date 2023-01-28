@@ -35,7 +35,7 @@ for r in range(1,2*n,1):
     print()
     
     
-    ******** OR ********
+    # ******** OR ********
     
 n = int(input())
 k = n
