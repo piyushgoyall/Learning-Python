@@ -40,26 +40,3 @@ for x in list1:
 
 # x = 1
 # print(x)
-
-# name = input("Enter your name: ")
-# print("Hello " + name)
-
-# first_name = "Tony"
-# last_name = "Stark"
-# age = 51
-# is_genius = True
-
-
-
-# is_adult = False
-
-# name = "Shradha"
-# age = 22
-
-# # name = "Aman"
-# # age = 24
-
-# print(name)
-# print(age)
-
-# print("Hello World")
